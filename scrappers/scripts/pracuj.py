@@ -71,21 +71,21 @@ class PracujPl(Base):
             working_places.append(company_city)
 
         if title is not None:
-            title_ = title.get_text().lower()
+            title_lower = title.get_text().lower()
         else:
-            title_ = ''
+            title_lower = ''
 
         for elem in self.CATEGORIES:
-            if elem in title_:
+            if elem in title_lower:
                 category = elem
             else:
                 category = None
         
-        if 'junior' in title_: 
+        if 'junior' in title_lower: 
             seniority = Json('junior')
-        elif 'mid' or 'regular' in title_: 
+        elif 'mid' or 'regular' in title_lower: 
             seniority = Json('mid')
-        elif 'senior' in title_: 
+        elif 'senior' in title_lower: 
             seniority = Json('senior')
         else: 
             seniority = None
