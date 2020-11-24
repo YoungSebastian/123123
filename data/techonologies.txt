@@ -1,0 +1,151 @@
+java
+android
+aws
+javascript
+C#
+Node.js
+.net
+angular
+
+Go/C++
+php
+Ruby on Rails
+c++
+python
+react
+node.js
+Ruby
+Laravel
+AngularJS
+ruby
+jenkins
+node
+ansible
+c
+Golang
+vue.js
+wordpress
+AWS
+golang
+Elixir
+C/C++
+selenium
+Flutter
+React
+Cloud Computing
+React Native
+Linux
+CIS Controls
+C
+scala
+AEM
+sql
+ios
+GCP
+hadoop
+SQL
+Salesforce
+Cloudera
+Swift
+bash
+ReactNative
+flutter
+ServiceNow
+Google Cloud
+spring
+Kubernetes
+azure
+magento
+TSQL
+Rust
+AZURE
+xamarin
+Ruby On Rails
+Embarcadero Delphi
+manual testing
+PL/SQL
+Wordpress
+Bash
+CentOS
+unity
+C ++
+Buildbot
+kubernetes
+Nifi
+spark
+AV
+elixir
+Cybersecurity
+Azure
+gitlab
+microservices
+html&css
+5G
+Web
+linux
+Python
+big data
+react native
+Apache
+macOS
+WordPress
+Node
+Microsoft SQL Server
+Attlasian
+Sitecore
+Java and JavaScript
+Scala
+SAP
+Gosu
+MS SQL
+Android
+agile
+ETL
+Vue.js
+Ruby on rails
+typescript
+.net core
+C++/C#
+Android / iOS
+OpenShift
+go
+C++
+redux
+Delphi
+cloud
+ruby on rails
+C++/Python
+Google Cloud Platform
+kafka
+SIEM
+TypeScript
+Haskell
+hp alm
+Splunk
+OWASP
+Beyond Trust
+Data Vault 2.0
+Linear Regression
+Shopify
+Magento
+Jira
+Embedded C
+Erlang
+Ionic
+Apex
+spring boot
+Webmethods
+automation
+docker
+Mobile
+testing
+Jenkins
+Angular
+mssql
+Apache Big Data Stack
+C embedded
+NodeJS
+node, vue
+Go
+ITIL
+Docker

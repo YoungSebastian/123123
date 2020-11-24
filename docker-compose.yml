@@ -42,6 +42,7 @@ services:
       - .env.prod
     environment:
       - PYTHONUNBUFFERED=0
+      - PYTHONIOENCODING=UTF-8
     command: /bin/sh -c "while :; do python -u main.py; sleep 1d; done"
     networks:
       - net

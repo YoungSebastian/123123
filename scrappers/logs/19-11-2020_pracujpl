@@ -1,0 +1,13 @@
+23:51:30 Starting new HTTPS connection (1): www.pracuj.pl:443
+23:51:30 https://www.pracuj.pl:443 "GET /praca?rd=30&cc=5015%2C5016 HTTP/1.1" 200 None
+23:55:31 Starting new HTTPS connection (1): www.pracuj.pl:443
+23:55:31 https://www.pracuj.pl:443 "GET /praca?rd=30&cc=5015%2C5016 HTTP/1.1" 200 None
+23:56:14 Starting new HTTPS connection (1): www.pracuj.pl:443
+23:56:14 https://www.pracuj.pl:443 "GET /praca?rd=30&cc=5015%2C5016 HTTP/1.1" 200 None
+23:56:14 INIT https://www.pracuj.pl/praca?rd=30&cc=5015%2c5016
+23:56:14 Starting new HTTPS connection (1): www.pracuj.pl:443
+23:56:15 https://www.pracuj.pl:443 "GET /praca/network-administrator-szczecin,oferta,1000577305 HTTP/1.1" 200 None
+23:56:15 OFFER: https://www.pracuj.pl/praca/network-administrator-szczecin,oferta,1000577305
+23:56:45 Starting new HTTPS connection (1): www.pracuj.pl:443
+23:56:45 https://www.pracuj.pl:443 "GET /praca/network-administrator-szczecin,oferta,1000577305 HTTP/1.1" 200 None
+23:56:45 OFFER: https://www.pracuj.pl/praca/network-administrator-szczecin,oferta,1000577305

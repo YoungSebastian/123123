@@ -3,7 +3,7 @@ import psycopg2
 
 class Base:
 
-    HOST     = os.environ.get('POSTGRES_HOST', 'db')
+    HOST     = os.environ.get('POSTGRES_HOST', 'localhost')
     PORT     = os.environ.get('POSTGRES_PORT', '5432')
     DBNAME   = os.environ.get('POSTGRES_DBNAME', 'postgres')
     USER     = os.environ.get('POSTGRES_USER', 'postgres')
@@ -24,7 +24,7 @@ class Base:
             password=self.PASSWORD
         )
         self.c = self.conn.cursor()
-        self.c.execute("""CREATE TABLE IF NOT EXISTS jobs(
+        self.c.execute("""CREATE TABLE IF NOT EXISTS work(
             id SERIAL PRIMARY KEY,
             title TEXT,
             skills JSON,
@@ -45,5 +45,6 @@ class Base:
             article_added DATE DEFAULT NULL,
             article_renewed DATE DEFAULT NULL,
             regions JSON DEFAULT NULL,
+            description TEXT DEFAULT NULL,
             is_active BOOLEAN DEFAULT TRUE
         )""")

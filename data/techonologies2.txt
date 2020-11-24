@@ -1,0 +1,1167 @@
+java
+HTML
+SQL
+Java
+python
+Unix
+Python
+Team Leadership
+pm
+Scrum
+Project Management
+MySQL
+Django
+php
+XML, AJAX, jQuery
+JavaScript, CSS, HTML
+znajomość języka PHP
+Looker
+Metabase
+ruby
+Databases
+MVC frameworks
+Web Applications
+HTTP
+JSON
+API
+other
+*SQL
+sap
+German
+SAP
+English
+javascript
+TypeScript
+PHP
+Angular
+Git
+ES6
+JavaScript
+Redux
+GraphQL
+React
+ReactJS
+Vue.js
+devops
+Azure
+Docker
+Kubernetes
+net
+ASP.NET
+Relational Databases
+C#
+REST
+REST API
+Leadership
+Communication Skills
+AWS
+Disaster Recovery
+Webpack
+React / Redux
+mobile
+React Native
+c
+Windows
+C++
+workflow tools
+BPM
+data
+Microsoft Azure Cloud
+Amazon Web Services
+Linux
+analytics
+System Analysis
+Polish
+GCP
+DevOps tools
+DevOps
+Visual Studio Code REST Client lub Postman
+CodeceptJS lub Selenium
+JavaScript lub C# lub Java
+Android
+Native development
+Problem Solving
+CRM
+ERP
+ASP .NET Core
+.Net
+Hibernate
+Spring Boot
+Powershell
+CI/CD
+AI
+ML
+scala
+Spark
+Scala
+html
+CSS
+WordPress
+support
+IT Support
+Customer Support
+Node
+WebSocket
+Java EE
+java8
+English in speech
+TDD
+Agile
+Assertiveness
+Time Management
+Team Player
+SSIS
+T-SQL
+SQL Server
+HTML5
+Doctrine ORM
+PHP 7.3 and 7.4
+Symfony 4.4 and 5+
+ux
+UI
+UX
+Figma
+Angular 8
+Python 3.x
+Spring
+Java 11
+Python, Lua
+APIs
+iOS SDK
+Mobile App Testing
+Swift
+PostgreSQL
+Ruby on Rails
+Android SDK
+Kotlin
+Event Driven Development
+Unit Testing
+testing
+Test Automation Tools
+Testing Tools
+QA
+GWT
+Jenkins
+AngularJS
+ABAP
+SAP S/4 HANA
+iOS
+RxSwift
+JIRA
+HP ALM
+.NET C#
+Automated Testing
+Testing
+PySpark
+Data Engineering
+Angular 4
+Presales
+Project Management in IT
+Entity Framework Core
+Web API
+.NET Core
+Exploratory testing
+Building data products
+OWASP
+SOAP
+security
+Information Security
+cyber security
+Strategy Managment
+load balancer
+Firewall
+Network
+SAS Enterprise Guide
+Oracle SQL
+4gl
+React.JS
+Portfolio Management
+Express.js
+Node.js
+ETL
+adobe
+CSS3
+Symfony5
+Symfony 4
+JS
+Apex
+Salesforce
+XGBoost/LightGBM/CatBoo
+NumPy
+Data Science
+Ruby
+Ember.js
+UI/UX
+Cloud
+Backlog developement
+Product Management
+Writing Test Scenarios
+Test Case Management
+Manual Testing
+VMware
+Networking
+Perl
+C# .NET
+UX Research
+Java 8
+Python 3+
+Data
+ReactiveKit
+Rust
+Go
+SaaS
+Cisco Meraki platform
+Cisco Network
+Java 11+
+workshops
+UI Design
+UX Design
+Angular 6+
+JS ES6
+Software Development
+Maven
+RSpec
+Symfony 2
+Teamwork
+Symfony 2/3
+Symfony
+Security
+Contact with a client
+Odoo
+Open source
+SpringBoot
+PyTorch
+PL SQL
+Teradata
+OOP
+Laravel
+MS SQL
+Oracle DB
+MS SQL Server
+Business Analysis
+Data Systems
+Mobile Apps
+Java 8+
+TensorFlow
+Software Engineering
+Apache Kafka
+.NETCore
+AWS or GCP
+Data modeling
+Selenium
+Test Automation
+Clojure
+Power BI
+QA methodology
+UI testing
+Analytics
+Cisco
+Apache
+go
+Django Rest Framework
+Python 3
+Python / Django
+SASS
+Google Cloud
+Java/Scala
+Adobe Illustrator
+Adobe Photoshop
+MongoDB
+Backend
+Microservices
+Angular 2+
+Prometheus
+Terraform
+Scripting
+AutoCAD
+Project Engineering
+.Net Framework
+Spring 4
+UML
+OmniGraffle
+Sketch
+Office 365
+SharePoint
+Software Design
+Elixir
+C
+CD
+Amazon AWS
+CI
+Analytic Databases
+Microservice Architecture
+JavaScript / jQuery / Bootstrap / ReactJS
+JavaScript (ES6+)
+Blueprint
+Unreal Engine 4
+MOBX
+BI
+DataStudio
+Google Analytics
+Mobile
+SASS / LESS
+JS (ES6/ES7)
+HTML5 / CSS3
+GPG
+Cassandra
+Groovy
+TestRail
+XML
+Excel
+ASP.NET MVC
+Ansible
+AWS services
+Application Security
+Advocate
+Technical Writing
+Cloud Computing
+Elasticsearch
+distributed system
+Virtualization
+Clipper
+PL/SQL
+Spring MVC
+Spring / JPA / Hibernate
+Network Protocols
+Distributed systems
+Kafka
+DB2
+Cobol
+Object Oriented Programming
+CSS / HTML
+Functional Programming
+Hadoop
+Tornado
+Microservices architectur
+PHPUnit
+PHP 7.x
+RESTful API design
+PHP 7
+TCP
+Continuous Integration (CI)
+cloud technologies
+Microsoft 365
+BPMN
+cloud-native devops tooling
+JPA / Hibernate
+ServiceNow
+ITSM
+GitLab
+laravel 5
+Magento 2
+Robot
+Advanced Custom Fields
+HTML / CSS
+Dart
+software testing
+Google Web Toolkit
+game
+Golang
+Postman
+Responsive Web Design
+Rails
+SQL / NoSQL
+SQL databases
+Automotive
+Requirements analysis
+Requirement Engineering
+Bash
+Google Cloud Platform
+CMS
+Social API
+Objective-C
+Confluence
+RabbitMQ
+Selenium WebDriver
+Google Data Studio
+Google Tag Manager
+Active Directory
+Windows 10
+Java or C or C++
+penetration testing
+Micronaut
+Kanban
+eCommerce
+ISTQB Foundation
+Web Server
+Vue
+Windows Server
+Redis
+Unity
+InVision
+Web Application Testing
+Testing skills
+Citrix Xen
+CAD
+ECMAScript 6
+R
+PM2
+GIS systems analysis and management
+Performance Engineering
+Programming
+Apache Camel
+Computer science
+SOLID Principles
+UIKit
+Linux Administration
+Software Development Life Cycle
+Cloud infrastructure knowledge
+JIRA Servicedesk
+Attlasian
+Bitbucket
+Analytical Thinking
+Angular 5+
+Protractor
+MVVM
+Xamarin
+Cloud security
+Cloud Compliance
+UX/UI Design
+Product design
+Pandas
+Cucumber
+Gherkin
+product owner
+PMP
+PRINCE2
+Simulink
+Matlab
+Analityczne Myślenie
+Analiza Biznesowa
+3G
+SAP BO
+Postman / Consola
+API rest
+LWC
+3D Modelling
+Akka
+Atlassian
+BDD
+PHP7
+Oracle
+JSP
+Nest
+SCSS
+jQuery
+Flow
+Testing web Apps
+Testing Mobile Apps
+erlang
+code
+Communication
+Risk Management
+Software Architecture
+asure
+HTTP Reverse Proxy
+Application Firewalls
+Oracle BRM
+Telco
+NoSQL
+NodeJS
+NPM
+RDBMS
+CocoaPods
+XCode
+API Testing
+Test Cases
+SAP IBP or similar
+Service Management
+Proactivity
+RESTful API
+NGINX
+React/Redux
+Tableau
+Java Persistence API
+Vuex
+ORM
+VPN
+Web Development
+Writing technical content
+JavaScript (jQuery)
+Continuous Integration
+Codeception
+GitHub
+Intune
+GPO
+SCCM
+PHP 5
+ECS
+Microsoft Azure
+Airflow
+VBA
+MS Excel
+Mobile Development
+PHP/Java/C#/Angular/React
+Starlette
+Flask
+Python 3.7
+Symfony / Laravel
+Web dev
+Cypress
+OPP
+Big Data
+data processing
+Android/iOS
+Clean Code
+Kinesis
+CI / CD
+WPF
+WSUS
+SSAS
+Aura
+ARM Templates
+IaaS services
+Microsoft Azure PaaS
+PaaS
+Ubuntu
+virtualization and containers
+Magento
+TypeScript/JavaScript
+Nagios
+python 2.7
+Java/Kotlin
+Illustrator
+InDesign
+Adobe CS
+ITIL
+Relacyjne Bazy Danych
+JEE
+ISTQB
+Decision making
+JVM
+HTML/CSS
+J2EE
+C++ 11/14
+SoapUI
+C/C++
+Azure IoT Hub
+Entity Framework
+SAP TM
+SAP IBP
+Unity 3D
+Serverless
+Agile / Scrum
+Machine Learning
+System Testing
+ES6+
+React or/and Angular
+Blockchain
+Scala / Java
+Ruby/Python/Java/Go
+Rest Services
+Adroid SDK
+Android Studio
+MapReduce
+Apache Spark
+Process Managment
+business operations
+HTTP protocol
+RESTful
+Principle
+Documentation of requirements
+Gathering requirements from client
+ASP.NET Core
+Quality Assurance
+Design Patterns
+ANgular 7+
+Jenkins/CI
+Java 10
+React Native Windows
+Blazor
+Sprint
+Scrum Master
+Network Administration
+Radware
+Arbor
+Fortinet
+BASH/ZSH
+Solidity
+Embedded
+Event sourcing
+UAT Testing
+Functional Testing
+SQLAlchemy
+RPA
+UiPath
+SOAP/REST
+Srum
+Djan
+SSRS/SSAS/SSIS
+DAX
+Dynamics 365
+React/Vue
+OpenGL
+WebGL
+WIN10
+one or more Azure Data and Analytics services
+PostreSQL
+JUnit
+solution implementer
+Qt5
+WPGraphQL
+WP REST API
+Test planning
+Concurrency
+Worksoft
+ATF SN
+HP UFT
+Symfony 3/4
+Algorithms
+Angular/React
+Bamboo
+UNIX/LINUX
+Auto Layout
+Data Management
+Data Architect
+Amazon Redshift
+WooCommerce
+HTML5/CSS3
+IPC
+SMT
+Embedded Systems
+ADAS
+Analogue electronics
+Digital electronics
+Redmine
+Drupal
+Linux/Unix
+ES 7
+JavaScript-based
+CentOS
+Azure Data Warehouse
+Azure Data Lake
+Azure Data Factory
+JavaScript Framework
+VueJS Framework
+UI / UX
+Marketing Cloud
+Back-end
+Systemy wbudowane
+Rhapsody
+Doors
+Unit testy
+statistical methods
+Microsoft Visual Studio
+Web-Application Firewalls
+AL
+C/AL
+T SQL
+Knockout
+Gaming Development
+Java Beans
+Luigi
+Rdmbs
+Java2EE
+TSQL
+PHP 5.x / 7.x
+Microsoft SQL
+NLB
+Deep Learning
+Azure Services
+LTE
+5G
+Citrix XenApp (ICA)
+Print Server
+Digital Analytics
+MS Sharepoint
+Spring/Hibarnate
+Symfony 3
+Icinga
+html /css
+Solid
+Atlasian
+Writing test cases
+DWH
+cloud-native landscape
+SOQL
+Gatling
+JBehave
+jGiven
+Tomcat
+Next.js
+Design Thinking
+SAP ERP
+SAP PS
+SAP PP
+Queue-based architectures (i.e. Rabbit)
+Data-driven architectures processing big data in real-time
+Event-driven Architectures (i.e. Kafka)
+Objective-C/Swift
+Animations
+Shell
+Hyper-V
+Microsoft Windows Server
+Enzyme
+JS/HTML/CSS
+Laravel/CakePHP
+GCC
+HQL
+SOA
+Cloud Build
+CakePHP
+SAP SD
+SAP WM
+SAP MM
+Web Services
+Microsoft Power BI
+User Interface
+MVC
+AWS (ECS, Lambda, DynamoDB, RDS)
+Django/Flask
+JavaScript (ES6)
+DynamoDB
+web
+Appium
+Bugzilla/Jira/TFS
+Front-End
+Postgres
+object-oriented programming languages
+WCF
+ASP.NET Core MVC
+People Management
+SAP CONCUR
+gRPC
+TCP/IP, HTTP
+Cloud Technology
+solution architecture
+Puppet
+SAP HANA
+MS Azure
+Platform Engineering
+CSS/JSS
+Graphic designs
+RWD
+HFM
+OBIEE
+MS Power BI
+JavaScript/VBA
+Java/Angular
+Unix or Linux
+UniRx
+Unity3d
+Visual Basic
+Azure DevOps
+iOS frameworks
+MDM
+Jest
+SDLC
+Nuxt.js
+Ajax
+Microsoft Dynamics 365
+Autosar
+Debugging
+C# or Java
+AWS/Azure/GCP
+Architecture
+RAID
+GoF
+Android libraries
+navision
+AX
+Doctrine
+Aruba
+TCP/IP
+QlikSense
+QlikView
+Business Intelligence
+ITIL Principles
+MS Operating Systems
+Microsoft Office
+Angular 8+
+problem-solving skills
+verbal and written skills
+JavaScript/C#/Python
+Cypress/Selenium WebDriver
+Tools
+Java SE
+Red Hat
+Mocha
+JMP
+data analytics
+automation
+Spring Integration
+ETL tools
+Selenium/Cypress
+MySQL / PostgreSQL
+IP routing
+Sprint Data JPA (Hibernate)
+Code Review
+Flutter
+MS Office
+French
+SIEM
+LAN
+Windows OS
+PMP/ITIL/EHS Certificate
+Programme Management
+Manufacturing Execution Systems
+Gitlab-CI
+Kubernetes / OpenShif
+IT Project Management
+Sanctions screening
+Anti-money laundering
+Compliance
+SVN
+Linux / Unix
+Ionic
+OS RHEL
+Prototyping
+Heroku
+Lightning
+Python/R
+data mining
+Applied Statistics
+MsSQL
+Pyramid
+IT PM
+RxJS
+Security infrastructure
+App administration
+CAN
+Elektronika
+MS Project
+Scala/Java
+Teoria sterowania
+MATLAB Simulink
+Quality by design
+E-commerce
+ES7
+EN
+Team Management
+IT Project Managment
+writing tests
+C++ 14
+C++11
+HSPM
+snow
+Azure Rights Management
+Troubleshooting
+Cybersecurity
+Composer
+Symfony 4/5
+Management
+Spring / Hibernate
+JavaScript/TypeScript
+Bootstrap
+Python 3.6+
+JSF
+Liferay
+TDD/BDD
+Material Design
+Adobe Creative Suite
+Linux (Debian)
+Research Workshops
+ASP.NET Web API
+Star Schema
+QML
+Qt
+webforms
+FHIR
+Angielski
+analiza systemowa
+Solution Design
+Gap analysis
+JPA
+Salesforce (Marketing Cloud)
+SAS Marketing Automation
+iOS Platform
+Redux / Mobx
+JavaScript (OOP/ES6)
+3D Math
+Logi Analitycs
+Reporting Tools
+React/Vue/Angular
+Frameworks
+SDK
+Engineering Management
+CCNA
+Cloud Networking
+truffle
+Baas
+shiny framework
+shiny
+qlik
+Apache Big Data Stack
+Dagger 2
+RxJava 2
+Adobe XD
+Continuous Delivery
+ProxySQL
+InnoDB
+CSS / SASS
+GNU Radio
+DSP
+Charles
+Web Testing
+VB.Net
+application development
+Vue 2
+framework Symfony 3/4
+PHP OOP
+Solaris
+Visual Studio
+Innovation
+Analytical skills
+WebService
+Data Quality
+Analyze business problems
+Cloud Services GCP
+Testing Complex Systems
+SAP Cloud Platform
+Fiori
+unit tests
+FIX Protocol
+BPMN2
+Azure/AWS/GCP
+Customer Service
+Chatbot
+ERD
+lOt
+Debian/Ubuntu
+GNU/Linux
+opem source network
+Apple Guidelines
+Django + React
+GWC
+Linux OS
+Symfony/Laravel
+#AWS
+#Spring
+#java
+#Redux
+#Typescript
+#angular8
+#automation
+#CI/CD
+Ruby Web Framework
+PHP / MYSQL
+Eclipse/Intellij Idea
+Java NIO
+frontend
+#Git
+#SQL
+#PHP
+Salesforce Platform
+Salesforce Cloud
+Salesforce Sales
+Sense of humor
+Web Software Products
+PL / SQL
+IT projects
+React/Angular/Vue
+OOD
+POS
+NLP
+Zend Framework
+Ubuntu Linux
+Client communication
+general programming skill
+iOS/Android
+Monitoring Tools
+LAMP/LEMP
+Node.js Express
+Axure RP
+integration testing
+e2e testing
+Test Management
+MVC web architecture
+Zepelin
+Sketchapp
+Design Tools
+big data technologies
+Python / R
+SAP NetWeaver
+statistical programming
+Power Platform
+AIX
+Core
+ArcSight
+Splunk
+Databricks
+Research
+Chef
+CCNP
+SAS
+Game Development
+Data analysis
+Camunda BPM
+ES6+ Syntax
+React / Angular
+.NET  Core
+Customer Discovery
+PHP 5.X
+LAMP
+JacaScript
+D3.js
+Symfony 2/3/4/5
+APIs and REST services
+Alamofire
+Firebase
+Phoenix
+Embedded C
+Ethereum
+NUnit
+WinForms
+interpersonal skills
+Doctrine 2
+Automation Tools
+Less
+Test Analysis
+SASS / SCSS
+SAP BASIS
+JavaScript / TypeScript
+Containers
+IIS
+Angular 10
+NativeScript
+EJB
+Uncle Bob
+Spring Framework
+Lamda
+Amazon Kinesis
+Hebrew language
+SAP Security
+SAP GRC
+DiO
+Java Spring Boot
+Gradle
+SFDC
+Blue Prism
+RPC
+TPDM
+DOM
+MySQL / NoSQL
+HTML5/CSS
+TestNG
+nowe technologie
+Automation Anywhere
+Microsoft BI
+QA Automation
+programming languages
+j. angielski
+Redux/mobx
+SAS DI
+SAS Visual analytics (on Viya)
+UX&UI Design
+Photoshop
+Client satisfaction
+PM Methodology
+MS Visio
+Pegasystems
+Microsoft Dynamics
+Rmarkdown
+Reactive architecture
+SwiftUI
+Any programming language
+Laravel 7.0
+Scala or Java
+Camel
+Bintray/JCenter/Maven
+Elm
+CrateDB
+PHP 5/7
+CSRF
+XSS
+analityk
+Play/Spring/Akka/Spray etc.
+Vaadin
+Java 14
+Fund Admin Modules
+Fund Accounting
+Simcorp
+Spring/Hibernate
+Twig
+Critical thinking
+Workday
+Svelte
+hybris
+SQL (Teradata/Redshift)
+Scrum Guide
+Java 7
+web QA
+mobile QA
+mobile games
+QA Testing
+Performance testing
+MsDynamics
+JavaScript ES6+
+Apache Storm / Spark
+DDD
+RxJava
+Azure AD
+ITSM/ITIL
+Development experience
+EIP
+OpenWrt
+GNU toolchain
+Python3
+Jira / Git
+Mock-ups
+SAML
+ADFS
+Cloud Service Providers
+GDPR
+Data security controls
+Control frameworks
+Cloud Platform
+Data Mapping
+DevSecOps
+SAS DI Studio
+SAS Visual Analytics
+UNIX AIX
+Openvms
+UNIX HP-UX
+Microsoft infrastructure and servers
+Java/EE
+Data engineer
+Enterprise Architect
+Network monitoring tools
+Angular 6
+Apache Storm
+NAT
+React.js / Vue / Angular
+DLP
+AV
+Spark/Flink/Kafka/Dask
+Scala/Java/Python/C#
+Java 6-8
+CI/DI
+RESTful APIs
+Robot Framework
+Dell Boomi
+MuleSoft
+Microsoft BizTalk Server
+.Net 4.5
+Spark Docker
+Azure Databricks
+Windows-based systems
+Agile/Scrum
+Finance domain
+Spring Cloud
+Zend
+OpenStack
+psr
+CloudFormation
+Distributed systems/computing
+User Stories
+strong coding skills
+Angular 9
+fintech experience
+Haskell
+Oracle v11
+Oracle v12
+PL-SQL
+Dagger
+IP networks
+RTOS
+Adobe Creative
+Rest, Entity Framework
+NET Core, ASP.NET MVC
+C#/.NET
+Grails
+Creating test cases
+PrestaShop
+PSM/CSM
+RoR
+ISTQB FL
+TFS

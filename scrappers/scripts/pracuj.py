@@ -1,76 +1,175 @@
-import requests
-from bs4 import BeautifulSoup
+import logging
+import dateparser
+import requests as req
 
+from time import sleep
+from datetime import date
+from bs4 import BeautifulSoup
+from requests_html import HTMLSession 
+from psycopg2.extras import Json
+from psycopg2.errors import UniqueViolation
+
+from base import Base
+
+logging.basicConfig(filename='../logs/'+date.today().strftime('%d-%m-%Y')+'_pracujpl',
+            format='%(asctime)s %(message)s', 
+            datefmt='%H:%M:%S',
+            level=logging.DEBUG)
 
 class PracujPl(Base):
 
     BASE_URL = 'https://www.pracuj.pl/'
-    START_URL = 'https://www.pracuj.pl/praca?rd=30&cc=5015%2c5016'
+    START_URL = 'https://www.pracuj.pl/praca/it%20-%20rozw%c3%b3j%20oprogramowania;cc,5016/programowanie;cc,5016003/ostatnich%2024h;p,1?rd=30'
+    
+    CATEGORIES = [i.replace('\n','') for i in open('./categories.txt','r').readlines()]
+    TECHNOLOGIES = [i.replace('\n','') for i in open('./technologies.txt','r').readlines()]
 
-    def scrapp_jobs_from_page(self):
-        r = requests.get(START_URL)
-        soup = BeautifulSoup(r.text)
-        import pdb; pdb.set_trace()
+    requests = HTMLSession()
+
+    def scrapp_jobs_from_page(self): 
+        r = self.requests.get(self.START_URL)
+        r.html.render()
+        logging.info('INIT '+self.START_URL)
 
         while True:
-            job_offers = soup.select('#results .offer__info , #results .offer--remoterecruitment , #results .offer-actions')
+            job_offers = r.html.find('#results ul .results__list-container-item .offer')
             for offer in job_offers:
-                offer_soup = BeautifulSoup(offer)
+                offer_soup = BeautifulSoup(offer.html, 'html.parser')
+                self.parse_and_insert_data(offer_soup)
+                self.conn.commit()
+                sleep(6)
                 
-                title = offer_soup.select_one('.offer-details__title-link')
-                company_name = offer_soup.select_one('.offer-company__name')
-                company_city = offer_soup.select_one('.offer-labels__item--location')
-                article_added = offer_soup.select_one('.offer-actions__date').get_text()
-                features = offer_soup.select('.offer-labels--hide-on-mobile .offer-labels__item')
-                href = title.get('href')
-                if href is None:
-                    job_offers_ = offer_soup.select('.offer-regions__label').get('href')
-                    for offer_ in job_offers_:
-                        self.parse_and_insert_data(offer_)
-                else:
-                    self.parse_and_insert_data(href)
-
-            next_page = soup.select_one('.pagination_element--next .pagination_trigger').get('href')
-            if next_page is None:
+            next_page = r.html.find('.pagination_element--next .pagination_trigger', first=True)
+            if next_page is not None:
+                next_page = next_page.absolute_links.pop()
+            else:
                 break
 
-            r = requests.get(START_URL)
-            soup = BeautifulSoup(r.text)
+            sleep(30)
+            r = self.requests.get(next_page)
+            r.html.render()
+            logging.info('NEXT PAGE '+next_page)
+        
+        logging.warning('FINITO!!!')
+        self.conn.close()
     
-    def parse_and_insert_data(self, url, title, ):
-        r = requests.get(url)
-        soup = BeautifulSoup(r.text)
+    def parse_and_insert_data(self, soup):
+        title = soup.select_one('.offer-details__title-link')
 
-        import pdb; pdb.set_trace()
+        company_name = soup.select_one('.offer-company__name')
+        if company_name is not None:
+            company_name = company_name.get_text().strip()
+        company_city = soup.select_one('.offer-labels__item--location')
+        if company_city is not None:
+            company_city = company_city.get_text().replace('\n','').strip()
+        
+        if soup.select_one('.offer-labels__item--remote-work'):
+            working_places = ['Remote']
+        else:
+            working_places = []
+        if company_city:
+            working_places.append(company_city)
 
-        title = soup.select_one('.OfferView1Z5qAH')
-        skills = soup.
-        category = soup.
+        if title is not None:
+            title_ = title.get_text().lower()
+        else:
+            title_ = ''
 
-        if 'junior' in title.lower(): seniority = 'Junior'
-        elif 'mid' or 'regular' in title.lower(): seniority = 'Mid'
-        elif 'senior' in title.lower(): seniority = 'Senior'
-        else: seniority = None
+        for elem in self.CATEGORIES:
+            if elem in title_:
+                category = elem
+            else:
+                category = None
+        
+        if 'junior' in title_: 
+            seniority = Json('junior')
+        elif 'mid' or 'regular' in title_: 
+            seniority = Json('mid')
+        elif 'senior' in title_: 
+            seniority = Json('senior')
+        else: 
+            seniority = None
 
-        url = url
-        working_places = soup.
-        salary_from = soup.
-        salary_to = soup.
-        salary_type = soup.
-        salary_currency = soup.
-        online_interview = soup.select_one('.OfferView1WH6YK')
-        company_name = soup.select_one('.OfferViewFf0I7D')
-        company_city = soup.
-        company_street = soup.
-        company_lat = soup.
-        company_lon = soup.
-        article_added = soup.
-        article_renewed = soup.
-        regions = soup.
+        if soup.select_one('.offer-details__badge-name--remoterecruitment') is not None:
+            online_interview = True
+        else:
+            online_interview = False
 
+        article_added = soup.select_one('.offer-actions__date')
+        if article_added is not None:
+            article_added = article_added.get_text().replace('opublikowana: ','').replace('\n','')
+            article_added = dateparser.parse(article_added)
+
+        url = title.get('href')
+        if url is None:
+            job_offers_ = soup.select('.offer-regions__label')
+            if job_offers_ is not None:
+                url = job_offers_[0].get('href')
+            for offer_ in job_offers_:
+                working_places.append(offer_.get_text().strip())
+
+        r = req.get(url)
+        soup = BeautifulSoup(r.content,'html.parser')
+        logging.info('OFFER: '+url)
+
+        salary_type = None
+        company_street = None
+        features = soup.select('li[data-test="sections-benefit-list-item"]')
+        for i in features:
+            i_lower = str(i).lower()
+            if 'sections-benefit-remote' in i_lower and not 'Remote' in working_places:
+                working_places.append('Remote')
+            elif 'sections-benefit-contracts' in i_lower:
+                if 'b2b' in i_lower:
+                    salary_type = 'b2b'
+                elif 'pracę' in i_lower:
+                    salary_type = 'pernament'
+                elif 'dzieło' in i_lower:
+                    salary_type = 'contact'
+                else:
+                    salary_type = None
+            elif 'sections-benefit-workplaces' in i_lower:
+                s = BeautifulSoup(i_lower, features="html.parser")
+                company_street = s.find('a')
+                if company_street is not None:
+                    company_street = company_street.get_text()
 
         
+        title = title.get_text()
+        salary_currency = None
+        salary_from = soup.select_one('.OfferView37GVCA')
+        if salary_from is not None:
+            salary_from = int(''.join([i for i in salary_from.get_text() if i.isdigit()]))
+        salary_to = soup.select_one('span[data-test="text-earningAmountValueTo"]')
+        if salary_to is not None and len(salary_to) >= 0:
+            salary_to = salary_to.get_text().split()
+            salary_to = int(''.join([i for i in salary_to[0] if i.isdigit()]))
+
+        description = soup.select_one('div[data-test="section-mobileOfferContent"]')
+        if description is not None:
+            description = description.get_text().replace('\n',' ').lower()
+            splited_description = description.split()
+        else:
+            splited_description = ['other']
         
+        skills = []
+        for tech in self.TECHNOLOGIES:
+            if tech in splited_description:
+                skills.append(tech)
+        skills = Json(skills)
 
+        salary_currency = 'PLN'
 
+        if working_places:
+            working_places = Json(working_places)
+        try:
+            self.c.execute("""INSERT INTO work (title, skills, seniority, url, 
+                working_places, salary_from, salary_to, salary_type, salary_currency,
+                online_interview, company_name, company_city, company_street, 
+                article_added, regions, description) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""", 
+                (title, skills, seniority, url, working_places, salary_from, salary_to, salary_type, salary_currency, 
+                online_interview, company_name, company_city,company_street, article_added,Json('pl'), description))
+        except UniqueViolation:
+            logging.warning('UNIQUE OFFER TRIED TO INSERT: '+url)
 
+PracujPl().scrapp_jobs_from_page()
